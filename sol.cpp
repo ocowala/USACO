@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #define dbg(...) cerr<<#__VA_ARGS__<<":"<<__VA_ARGS__<<"\n";
 using namespace std;
+const int MOD=1000000007;
 const int MN=1e5+10;
 void setIO(string str){
 	freopen((str+".in").c_str(),"r",stdin);
