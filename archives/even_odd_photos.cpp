@@ -13,6 +13,23 @@ void setIO(string str){
 	}
 }
 int main(){
-    
+	//setIO("");
+    int N;
+    cin >> N;
+    int o=0,e=0;
+    vector<int> v(N); for(int i=0; i<N; ++i){
+        cin >> v[i];
+        if(v[i]%2==0) ++e;
+        else ++o;
+    }
+    int cnt=0;
+    while(e<o){
+        o-=2; 
+        ++e;
+    }
+    if(e>o+1){
+        e=o+1;
+    }
+    cout << o+e << "\n";
     return 0;
 }
