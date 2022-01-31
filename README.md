@@ -1,3 +1,3 @@
 # USACO
-files and solutions for USACO
-the files are in master for some reason, trying to make main master or smth like that
+The files in archives are my solutions for past problems and the sol.cpp is a template file. 
+Enjoy :)
