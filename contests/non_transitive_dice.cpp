@@ -66,7 +66,6 @@ void solve(){
     sort(b,b+4);
     int a_cnt=0,b_cnt=0;
     create_transitive_c(a,b);
-    
 }
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(nullptr);
