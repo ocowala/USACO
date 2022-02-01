@@ -8,9 +8,6 @@ void setIO(string str){
 	freopen((str+".out").c_str(),"w",stdout);
 }
 string correct[3],guess[3];
-void remove_correct(){
-
-}
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(nullptr);
 	//setIO("");
