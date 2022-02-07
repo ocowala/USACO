@@ -5,10 +5,9 @@ using namespace std;
 const int MOD=1000000007;
 const int MAX_N=105;
 void setIO(string str){freopen((str+".in").c_str(),"r",stdin);freopen((str+".out").c_str(),"w",stdout);}
-int N;
 int main(){
-    //setIO("lifeguards");
-    ios_base::sync_with_stdio(false);cin.tie(nullptr);cin.exceptions(ios_base::failbit);
-    cin >> N;
+    //setIO("");
+    ios_base::sync_with_stdio(false),cin.tie(nullptr),cin.exceptions(ios_base::failbit);
+    
     return 0;  
 }
