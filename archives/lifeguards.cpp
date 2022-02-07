@@ -16,8 +16,8 @@ int main(){
         int a,b; cin >> a >> b;
         v.push_back({a,b});
         for (int j=a;j<b;++j) {
-			++numCover[j];
-		}
+        ++numCover[j];
+      }
     }
     int covered=0;
     int maxCover=0;
