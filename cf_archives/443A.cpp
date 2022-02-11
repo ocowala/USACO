@@ -10,6 +10,15 @@ void setIO(string str){
 int main(){
     //setIO("");
     ios_base::sync_with_stdio(false),cin.tie(nullptr),cin.exceptions(ios_base::failbit);
-    
+    string s;
+    getline(cin,s);
+    int ans=0;
+    set<int> st;
+    for(int i=0; i<(int)s.size(); ++i){
+        if(s[i]-'a'>=0 && s[i]-'a'<26){
+            st.insert(s[i]);
+        }
+    }
+    cout << st.size() << "\n";
     return 0;  
 }
