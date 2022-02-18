@@ -9,6 +9,17 @@ void setIO(string str){
 int main(){
 	//setIO("");
 	ios_base::sync_with_stdio(false),cin.tie(nullptr),cin.exceptions(ios_base::failbit);
-	cout << "Hello World" << "\n";
-	return 0;
+	for(int i = 0; i < 5; ++i){
+		cout << i << " ";
+	}
+	cout << "\n";
+	for(int i=0; i<5; ++i){
+		cout << i << " ";
+	}
+	cout << "\n";
+	for(int i=0;i<5;++i){
+		cout << i << " ";
+	}
+	cout << "\n";
+	return 0;	
 }
