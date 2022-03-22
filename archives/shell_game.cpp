@@ -3,9 +3,9 @@
 using namespace std;
 const int MOD=1000000007;
 const int MX=1e5+10;
-void setIO(string str){
-	freopen((str+".in").c_str(),"r",stdin);
-	freopen((str+".out").c_str(),"w",stdout);
+void setIO(string s){
+	freopen((s+".in").c_str(),"r",stdin);
+	freopen((s+".out").c_str(),"w",stdout);
 }
 int main(){
     //setIO("shell");
