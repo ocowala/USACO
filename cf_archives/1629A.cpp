@@ -1,6 +1,6 @@
 
 #include <bits/stdc++.h>
-#define dbg(...) cerr<<#__VA_ARGS__<<":"<<__VA_ARGS__<<"\n";
+#define dbg(...) cerr << #__VA_ARGS__ << ":" << __VA_ARGS__ << "\n"
 using namespace std;
 bool cmp(pair<string, int>& a,pair<string, int>& b){
     return a.first < b.first;

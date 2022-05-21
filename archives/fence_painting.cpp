@@ -6,7 +6,7 @@ int main(){
 	//freopen("paint.out","w",stdout);
 	ios_base::sync_with_stdio(false);cin.tie(nullptr);	
     int a,b,c,d;
-    cin >> a >> b >> c >> d;
+    cin>>a>>b>>c>>d;
     int total=max(b,d)-min(a,c);
     int intersect=max(0,max(a,c)-min(b,d));
     cout << total-intersect << "\n";

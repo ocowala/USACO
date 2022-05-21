@@ -8,7 +8,7 @@ int n;
 void reverse_shuffle(int* a,int* key){
 	int tmp_a[n];
 	for(int i=0;i<n;i++) tmp_a[i]=a[key[i]-1];
-	for(int i=0;i<n;i++)a[i]= tmp_a[i];
+	for(int i=0;i<n;i++) a[i]=tmp_a[i];
 	}
 int main(){
     //setIO("shuffle");

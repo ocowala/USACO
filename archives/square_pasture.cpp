@@ -1,23 +1,16 @@
-#include <iostream>
-// for some reason it wasnt working with bits/stdc++.h
-#define dbg(...) cerr<<#__VA_ARGS__<<":"<<__VA_ARGS__<<"\n";
+#include <bits/stdc++.h>
 using namespace std;
-void setIO(string str){
-	freopen((str+".in").c_str(),"r",stdin);
-	freopen((str+".out").c_str(),"w",stdout);
-}
+int p1[4],p2[4];
 int main(){
-    setIO("square");
-	ios_base::sync_with_stdio(false);cin.tie(nullptr);	
-    int x11,x12,y11,y12;
-	int x21,x22,y21,y22;
-	cin >> x11 >> y11 >> x12 >> y12;
-	cin >> x21 >> y21 >> x22 >> y22; 
-	int l = min(x11,x21);
-	int r = max(x12,x22); 
-	int u = min(y11,y21);
-	int d = max(y12,y22);
-	int side = max(r-l,d-u);
-    cout<<side*side<<"\n";
-    return 0;
+	freopen("square.in","r",stdin);
+	freopen("square.out","w",stdout);
+	cin.tie(0)->sync_with_stdio(0);
+	for(int i=0;i<4;i++) cin>>p1[i];
+	for(int i=0;i<4;i++) cin>>p2[i];
+	int left=min(p1[0],p2[0]);
+	int right=max(p1[2],p2[2]);
+	int bottom=min(p1[1],p2[1]);
+	int up=max(p1[3],p2[3]);
+	cout<<pow(max(right-left,up-bottom),2)<<"\n";
+	return 0;
 }
